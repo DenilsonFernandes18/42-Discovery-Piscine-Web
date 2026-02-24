@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* A própria tabela é o card */
+.card{
+    margin: 15px auto;
+    width: 280px;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.center{
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 0;
+}
+a{
+    text-decoration: none;
+}
+.imag{
+    height: 180px;
+    margin-bottom: 6px;
+}
+
+.descrition{
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+}
+
+.descrition2{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.redes img{
+    width: 18px;
+    height: 18px;
+    margin: 10px 5px;
+}
+
+.contact{
+    background: black;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+}

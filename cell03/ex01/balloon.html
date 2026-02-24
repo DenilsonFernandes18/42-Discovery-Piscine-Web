@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explode this balloon</title>
+    <style>
+        #ballon{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="ballon">
+    </div>
+    <script>
+        const bal = document.querySelector("#ballon");
+        let tamanho = 200;
+        let indexColor = 0;
+        let colors = ["red","green","blue"];
+
+        bal.addEventListener("click", 
+        function(){
+            tamanho +=10;
+            if(tamanho > 420){
+                tamanho = 200;
+                indexColor = 0;
+            }
+            else{
+                indexColor++;
+                if(indexColor >= colors.length){
+                    indexColor = 0;
+                }
+            }
+            bal.style.height = tamanho + "px";
+            bal.style.width = tamanho + "px";
+            bal.style.backgroundColor = colors[indexColor];
+        });
+
+        bal.addEventListener("mouseleave",
+        function(){
+            tamanho -=5;
+            if(tamanho < 200){
+                tamanho = 200;
+            }
+            else{
+                indexColor--;
+                if(indexColor < 0){
+                    indexColor = colors.length - 1;
+                }
+            }
+            bal.style.height = tamanho + "px";
+            bal.style.width = tamanho + "px";
+            bal.style.backgroundColor = colors[indexColor];
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change background</title>
+    <link rel="stylesheet" href="backgroound.css">
+</head>
+<body id="body">
+    <button onclick="mudarCor()" id="texto">Click me!</button>
+    <script>
+
+        const body = document.querySelector("#body");
+        const texto = document.querySelector("#texto");
+        let corAtual = 0;
+        let mudou = false;
+        let tamanho = 16;
+        function mudarCor(){
+            if(mudou){
+                body.style.background = "Lightgreen";
+            }
+            if(corAtual === 0 || corAtual === 2){
+                body.style.background = "Lightgreen";
+                texto.style.fontSize = "18px";
+                corAtual = 1;
+            }
+            else if(corAtual === 1){
+                body.style.background = "Lightblue";
+                texto.style.fontSize = "20px";
+                corAtual = 2;
+            }
+        }
+    </script>
+</body>
+</html>

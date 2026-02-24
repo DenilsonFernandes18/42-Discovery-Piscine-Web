@@ -1,0 +1,26 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+}
+
+/* A tabela ocupa toda a tela */
+table {
+  width: 100%;
+  height: 100vh; /* altura da tela */
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  font-size: 1vw; /* texto responsivo */
+  padding: 20px;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 600px) {
+  td {
+    font-size: 4vw;
+    padding: 10px;
+  }
+}

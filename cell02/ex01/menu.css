@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.menu{
+    list-style: none;
+}
+.menu li{
+    display: block;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 15px;
+    display: block;
+    font-size: 15px;
+}
+.submenu a:hover{
+    background: #555;
+    width: 150px;
+}
+/* Submenu escondido */
+.submenu {
+  display: none;
+  position: absolute;
+  background: #22438C;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Mostrar submenu ao passar o mouse */
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  width: 150px;
+}
