@@ -4,10 +4,10 @@
 <h6>Módulo 2 - CSS</h6>
 <h6>Módulo 3 - JavaScript</h6>
 
-Meu aproveitamento em termos de nota foi:
-Cell00            100%✅ - todos ficheiros
-Cell01            100%✅ - todos ficheiros
-Cell02            100%✅ - todos ficheiros
-Cell03            100%✅ - todos ficheiros
+Meu aproveitamento em termos de nota foi:<br>
+Cell00            100%✅ - todos ficheiros<br>
+Cell01            100%✅ - todos ficheiros<br>
+Cell02            100%✅ - todos ficheiros<br>
+Cell03            100%✅ - todos ficheiros<br>
 Rush - Final      100%✅
 </p>
