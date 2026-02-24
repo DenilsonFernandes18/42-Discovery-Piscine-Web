@@ -16,11 +16,13 @@ A formação contou com **3 módulos**:
 
 ## 📊 Aproveitamento
 
-- **Cell00 (Shell)** – 100% ✅ – Todos os ficheiros  
-- **Cell01 (HTML)** – 100% ✅ – Todos os ficheiros  
-- **Cell02 (CSS)** – 100% ✅ – Todos os ficheiros  
-- **Cell03 (JavaScript)** – 100% ✅ – Todos os ficheiros  
-- **Rush Final** – 100% ✅  
+| Módulo                  | Nota  | Estado              |
+|--------------------------|-------|---------------------|
+| Cell00 (Shell)           | 100%  | ✅ Todos ficheiros  |
+| Cell01 (HTML)            | 100%  | ✅ Todos ficheiros  |
+| Cell02 (CSS)             | 100%  | ✅ Todos ficheiros  |
+| Cell03 (JavaScript)      | 100%  | ✅ Todos ficheiros  |
+| Rush Final               | 100%  | ✅ Concluído        |
 
 ---
 
